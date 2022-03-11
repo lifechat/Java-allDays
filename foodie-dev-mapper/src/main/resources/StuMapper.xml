@@ -9,4 +9,9 @@
     <result column="name" property="name" jdbcType="VARCHAR" />
     <result column="age" property="age" jdbcType="INTEGER" />
   </resultMap>
+
+<!--  查询某个学生信息 -->
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+        select * from stu where id =  #{id, jdbcType=INTEGER}
+  </select>
 </mapper>
