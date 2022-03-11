@@ -29,3 +29,10 @@ spring:
 mybatis:
   type-aliases-package: com.imooc.pojo  # 所有pojo类的所在路径
   mapper-locations: classpath:mapper/*.xml # mapper映射文件
+
+# mybatis mapper 配置
+# 通用Mapper 配置
+mapper:
+  mappers: com.immoc.my.mapper.MyMapper
+  not-empty: false
+  identity: MYSQL
