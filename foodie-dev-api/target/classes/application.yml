@@ -12,7 +12,7 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/foodie?useUnicode=true&amp;characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/foodie?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone = GMT
     username: root
     password: root
     hikari:
@@ -33,6 +33,6 @@ mybatis:
 # mybatis mapper 配置
 # 通用Mapper 配置
 mapper:
-  mappers: com.immoc.my.mapper.MyMapper
+  mappers: com.imooc.my.mapper.MyMapper
   not-empty: false
   identity: MYSQL

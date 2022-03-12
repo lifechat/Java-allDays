@@ -1,7 +1,14 @@
 package com.imooc.service;
 
-import com.immoc.pojo.Stu;
+import com.imooc.pojo.Stu;
 
 public interface StuService {
-    Stu getStuInfo(int id);
+
+   public Stu getStuInfo(int id);
+
+   public void saveStu();
+
+   public void updateStu(int id);
+
+   public void deleteStu(int id);
 }
