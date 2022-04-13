@@ -6,3 +6,13 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+build/
+test/
+ #  忽略 .idea 的文件或者文件夹
+.idea
+#忽略后缀为iml的文件
+*.iml
+ #忽略target 文件或目录以及目录下的所有文件
+target
+# 忽略 DS_Store
+.DS_Store
