@@ -9,7 +9,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication
 @MapperScan( "com.imooc.mapper")
-@ComponentScan(basePackages = {"com.imooc","org.n3r.idworker"})
+@ComponentScan(basePackages = {"com.immoc","org.n3r.idworker"})
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class,args);

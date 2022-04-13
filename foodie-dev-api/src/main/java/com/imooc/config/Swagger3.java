@@ -14,6 +14,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @Configuration
 public class Swagger3 {
 //    访问地址 http://localhost:8090/swagger-ui.html
+
+//    api文档地址:协议+ip地址:端口/doc.html
 //    配置swagger核心配置
     @Bean
     public Docket createRestApi(){
