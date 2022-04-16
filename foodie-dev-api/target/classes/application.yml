@@ -1,7 +1,7 @@
 # 配置tomcat
 
 server:
-  port: 8900
+  port: 8090
   tomcat:
     uri-encoding: utf-8
   max-http-header-size: 80KB
